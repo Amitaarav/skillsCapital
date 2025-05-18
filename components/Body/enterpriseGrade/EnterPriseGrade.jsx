@@ -18,10 +18,12 @@ const data = [
 ]
 export const EnterPriseGrade = () => {
     return (
-        <div className=" bg-gradient-to-l m-8 from-bgray-900 to-gray-500 rounded-t-2xl p-4">
-            <h1 className="text-black font-bold text-center text-4xl">Enterprise-Grade SAP Talent in 48 hours</h1>
-            <p className="text-sm font-medium text-center">No Compromise on Quality</p>
-            <div className="flex flex-col md:flex-row gap-4">
+        <div className=" bg-gradient-to-l m-8 bg-blue-950 p-4 max-w-screen">
+            <div>
+                    <h1 className="text-white font-bold text-center text-4xl">Enterprise-Grade SAP Talent in 48 hours</h1>
+                    <p className="text-sm font-medium text-center text-gray-200">No Compromise on Quality</p>
+            </div>
+            <div className="flex flex-col md:flex-row gap-4 m-8">
                 {data.map((card,index) => (
                     <div
                     key={index}

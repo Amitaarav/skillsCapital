@@ -1,5 +1,4 @@
 import { SubComponents } from "./SubComponents";
-
 const cardDetails = [
     {
         id:"1",
@@ -27,11 +26,11 @@ const cardDetails = [
 export const MainComponents = () => {
     return (
         <div>
-            <div className="flex justify-center items-center flex-col mt-8">
-                <h1 className="text-4xl font-bold text-black">Source & Deploy SAP Expertise Seamlessly</h1>
+            <div className="flex justify-center items-center flex-col mt-8 ">
+                <h1 className="text-4xl font-bold text-gray-700 ml-8">Source & Deploy SAP Expertise Seamlessly</h1>
                 <p className="text-gray-600">Our AI-driven plateform powers three key engagement models.</p>
             </div>
-            <div className="max-w-7xl mx-auto m-4 text-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+            <div className="max-w-7xl mx-auto m-4 text-black grid grid-cols-1  md:grid-cols-3 gap-2 sm:gap-4">
                 {cardDetails.map((item) => (<SubComponents key={item.id} img={item.img} heading={item.heading} label={item.label} description={item.description} />))}
             </div>
         </div>

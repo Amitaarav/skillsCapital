@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react"
 export const RightArrowButton = () => {
     return (
-        <div>
+        <div className="hever:cursor-pointer">
             <button className="flex items-center bg-white border-gray-300 border rounded-full px-4 py-2">
                     <span className="mr-3 text-black font-semibold">Find Talent</span>
                     <div className="bg-yellow-500 rounded-full p-2">
