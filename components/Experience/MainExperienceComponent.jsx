@@ -8,7 +8,7 @@ export const MainExperienceComponent = () =>{
     const [filterData, setFilterData] = useState([]);
 
     useEffect(()=>{
-        let responseData = [experienceData];
+        let responseData = experienceData;
         if(filter.propertyType !== "All Property"){
             responseData = responseData.filter((data) => data.propertyType === filter.propertyType);
         }
@@ -23,15 +23,15 @@ export const MainExperienceComponent = () =>{
     },
     [filter])
     return (
-        <div className="p-4 font-sans bg-gradient-to-bl from-green-200 to-green-800 m-8 rounded-lg shadow-lg">
-            <h1 className="text-4xl text-gray-900 font-bold mb-4">
+        <div className=" font-sans bg-gradient-to-l m-8 bg-blue-950 p-4   rounded-lg shadow-lg">
+            <h1 className="text-4xl text-gray-200 font-bold mb-4">
                 Hospitality Experience
             </h1>
             <div className="flex flex-col md:flex-row gap-8">
-                <div className="w-full md:w-1/3">
+                <div className="w-full h-full md:w-1/3"> 
                     <FilterPanel filter={filter} setFilter={setFilter}/>
                 </div>
-                <div className=" bg-blue-400 w-full md:w-2/3 rounded-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className=" bg-gray-200 w-full md:w-2/3 rounded-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-20">
                         {filterData.map((data) => (<ExperienceCard key={data.id} data={data}/>))}
                 </div>
             </div>

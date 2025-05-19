@@ -1,6 +1,5 @@
 import { PrimaryYellowButton } from "@/utils/buttons/PrimaryYellowButton"
 import { RightArrowButton } from "@/utils/buttons/RightArrowButton"
-import { BadgeCheck, BrainCog, SearchCheck, Users } from "lucide-react"
 import { GiLevelFourAdvanced } from "react-icons/gi";
 import { GiPuzzle,GiWorld } from "react-icons/gi";
 import { HiBuildingOffice2 } from "react-icons/hi2";

@@ -12,7 +12,7 @@ const navLabelItems = [
 export const Navbar = () => {
     return (
         <div className="w-full px-6 py-2 h-16 bg-white flex items-center justify-between">
-            <div className="text-xl font-bold">SkillsCapital</div>
+            <div className="text-xl font-bold hover:cursor-poiter"><button className="hover:cursor-pointer hover:scale-105 hover:transition hover:duration-300 hover:ease-in-out">SkillsCapital</button></div>
             <div className="flex gap-6 cursor-pointer">
                 {navLabelItems.map((item) => (<DropDownButton key={item} label={item} className="hover:text-black hover:font-semibold cursor-pointer text-xl"/>))}
             </div>
