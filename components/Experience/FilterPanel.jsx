@@ -1,8 +1,8 @@
 export const FilterPanel = ({filter, setFilter}) => {
     return (
-        <div className="flex flex-col md:w-full gap-4 mb-4 bg-gray-100 shadow-lg rounded-md p-2">
-                <select name="" id=""
-                    className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+        <div className="flex flex-col gap-4 mb-4 bg-gray-400 shadow-md rounded-lg p-4 w-full">
+                <select name="property type" id=""
+                    className="bg-white border-2 border-gray-300 text-gray-900 text-sm rounded-md focus:ring-2 focus:ring-blue-500 block w-full p-2.5 "
                     value={filter.propertyType} 
                     onChange={(e) => setFilter((filter)=>({...filter, propertyType: e.target.value}))}
                     >
@@ -14,8 +14,8 @@ export const FilterPanel = ({filter, setFilter}) => {
                     <option value="guesthouse">Guesthouse</option>
                     <option value="motel">Motel</option>
                 </select>
-                <select name="" id=""
-                    className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+                <select name="Year" id=""
+                    className="bg-white border-2 border-gray-300 text-gray-900 text-sm rounded-md focus:ring-2 focus:ring-blue-500 block w-full p-2.5 "
                     value={filter.year} 
                     onChange={(e) => setFilter((filter)=>({...filter, year: e.target.value}))}
                     >
@@ -28,7 +28,7 @@ export const FilterPanel = ({filter, setFilter}) => {
                     <option value="2025">2025</option>
                 </select>
                 <select name="" id=""
-                    className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
+                    className="bg-white border-2 border-gray-300 text-gray-900 text-sm rounded-md focus:ring-2 focus:ring-blue-500 block w-full p-2.5 "
                     value={filter.location} 
                     onChange={(e) => setFilter((filter)=>({...filter, location: e.target.value}))}
                     >

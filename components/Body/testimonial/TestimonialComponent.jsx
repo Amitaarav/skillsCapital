@@ -37,7 +37,7 @@ export const TestimonialComponent = () => {
     return (
         <section className=" py-12 p-4 md:px-20 bg-gray-400 mt-4">
             <div className="text-center max-w-4xl mx-auto mb-12">
-                <h2 className="text-3xl font-bold mb-4">
+                <h2 className="text-3xl font-bold mb-4 md:text-4xl">
                     Trusted by Global Enterprises & SAP Leaders
                 </h2>
                 <p className="text-gray-700 mt-2">

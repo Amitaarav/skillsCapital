@@ -2,7 +2,7 @@ import Image from "next/image";
 import { SecondaryBlackButton } from "@/utils/buttons/SecondaryBlackButtons";
 export const SubComponents = ({img, description,heading,label}) => {
     return (
-        <div className="w-full sm:w-[300px] bg-white shadow overflow-hidden rounded-xl flex flex-col justify-center items-center transform transition-transform duration-300 ease-in-out hover:shadow-xl pb-2 mr-10">
+        <div className="w-full sm:w-[300px] bg-white shadow overflow-hidden rounded-xl flex flex-col justify-center items-center transform transition-transform duration-300 ease-in-out hover:shadow-xl pb-2 ">
                 <div className="relative w-full h-48">
                     <Image
                     alt="Card image"

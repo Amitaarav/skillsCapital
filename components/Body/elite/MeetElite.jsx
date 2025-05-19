@@ -48,7 +48,7 @@ const eliteDetails = [
 export const MeetElite = () => {
     return (
         <div className="flex justify-center items-center flex-col bg-gradient-to-tl from-gray-800 via-gray-850 to-blue-950 mt-4 shadow-lg">
-            <h1 className="text-5xl font-bold text-gray-100 mt-4">Meet Our Elite SAP Experts</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-100 mt-4">Meet Our Elite SAP Experts</h1>
             <p className="text-gray-200">Seleced experts with knoeledge and a history of successful delivery.</p>
             <div className="flex justify-center items-center flex-col mt-2">
                 <div className="max-w-7xl mx-auto m-4 text-black grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 p-4">
