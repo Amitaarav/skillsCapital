@@ -4,7 +4,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) with App Router
 - **Language**: JavaScript (React JSX)
@@ -14,7 +14,7 @@
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 app/
 ├── favicon.ico # App icon
 ├── globals.css # Global styles
@@ -93,8 +93,10 @@ yaml
 Copy code
 
 ---
+Here you will find folder structure musch clumsy and hard to digest so keeping this thing in mind I am attaching a mermaid link which is pulic please have a look on this 
 
-## ▶️ Installation
+https://www.mermaidchart.com/raw/31a36944-bc45-4551-ae14-dd0d5fefd373?theme=light&version=v0.1&format=svg
+## Installation
 
 ```bash
 # Clone the repository
@@ -110,7 +112,7 @@ Copy code
 npm run dev
 Open http://localhost:3000 to view the app in your browser.
 
-📜 Available Scripts
+# Available Scripts
 npm run dev: Start dev server with TurboPack
 
 npm run build: Build the production version
