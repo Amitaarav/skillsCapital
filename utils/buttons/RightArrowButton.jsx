@@ -1,6 +1,4 @@
 import { ArrowRight } from "lucide-react"; // or ArrowRightIcon if needed
-import { motion } from "framer-motion";
-
 export const RightArrowButton = () => {
   return (
     <div className="flex items-center">
