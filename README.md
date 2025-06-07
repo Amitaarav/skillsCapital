@@ -13,81 +13,72 @@
 - **Icons**: Lucide React & React Icons
 
 ---
-
-##  Folder Structure
-app/
-├── favicon.ico # App icon
-├── globals.css # Global styles
-├── layout.js # Global layout component
-├── page.js # Root landing page
-
-components/
-├── Body/
-│ ├── aiPoweredDeep/ # AI service related components
-│ │ └── components/
-│ │ ├── DeepVet.jsx
-│ │ ├── MainComponents.jsx
-│ │ ├── MatchTM.jsx
-│ │ ├── TalentPersona.jsx
-│ │ ├── TopHeading.jsx
-│ │ └── AIPoweredService.jsx
-│ ├── elite/ # Elite professionals section
-│ │ ├── CardComponent.jsx
-│ │ └── MeetElite.jsx
-│ ├── enterpriseGrade/ # Enterprise service components
-│ │ ├── EnterPriseGrade.jsx
-│ │ └── SubComponent.jsx
-│ ├── heroComponent/ # Hero section
-│ │ └── HeroSection.jsx
-│ ├── indiaSAP/ # India SAP specific info
-│ │ └── IndiaSAP.jsx
-│ ├── reinforceValue/ # Reinforcement content
-│ │ └── ReinforceComponent.jsx
-│ ├── sourceDeploy/ # Deployment solutions
-│ │ ├── MainComponents.jsx
-│ │ └── SubComponents.jsx
-│ └── testimonial/ # Testimonials
-│ └── TestimonialComponent.jsx
-
-├── Experience/ # User experience related cards
-│ ├── ExperienceCard.jsx
-│ ├── FilterPanel.jsx
-│ └── MainExperienceComponent.jsx
-
-Footer/
-├── Footer.jsx # Footer component
-
-Navbar/
-├── Navbar.jsx # Top navigation bar
-
-ServicesComponents/
-├── Header.jsx
-├── Hero.jsx
-
-utils/
-├── buttons/ # Button components
-│ ├── DropDownButton.jsx
-│ ├── PrimaryYellowButton.jsx
-│ ├── RightArrowButton.jsx
-│ ├── SecondaryBlackButtons.jsx
-│ └── SimpleButton.jsx
-├── icons/
-│ └── IconsAIPoweredComp.jsx
-├── images/
-│ ├── images.js
-│ └── experienceData.js
-
-public/ # Public assets like images
-
-config/
-├── postcss.config.js
-├── tailwind.config.js
-
-root/
-├── package.json # Project metadata and scripts
-├── README.md # Project overview (you are here)
-├── .gitignore
-├── next.config.mjs
+## Folder Structure
+.
+├── app/
+│   ├── favicon.ico         # Application icon
+│   ├── globals.css         # Global styles
+│   ├── layout.js           # Global layout component
+│   └── page.js             # Root landing page
+├── components/
+│   ├── Body/
+│   │   ├── aiPoweredDeep/  # AI service related components
+│   │   │   └── components/
+│   │   │       ├── DeepVet.jsx
+│   │   │       ├── MainComponents.jsx
+│   │   │       ├── MatchTM.jsx
+│   │   │       ├── TalentPersona.jsx
+│   │   │       ├── TopHeading.jsx
+│   │   │       └── AIPoweredService.jsx
+│   │   ├── elite/          # Elite professionals section
+│   │   │   ├── CardComponent.jsx
+│   │   │   └── MeetElite.jsx
+│   │   ├── enterpriseGrade/ # Enterprise service components
+│   │   │   ├── EnterPriseGrade.jsx
+│   │   │   └── SubComponent.jsx
+│   │   ├── heroComponent/  # Hero section
+│   │   │   └── HeroSection.jsx
+│   │   ├── indiaSAP/       # India SAP specific information
+│   │   │   └── IndiaSAP.jsx
+│   │   ├── reinforceValue/ # Reinforcement content
+│   │   │   └── ReinforceComponent.jsx
+│   │   ├── sourceDeploy/   # Deployment solutions
+│   │   │   ├── MainComponents.jsx
+│   │   │   └── SubComponents.jsx
+│   │   └── testimonial/    # Testimonials
+│   │       └── TestimonialComponent.jsx
+│   ├── Experience/         # User experience related cards
+│   │   ├── ExperienceCard.jsx
+│   │   ├── FilterPanel.jsx
+│   │   └── MainExperienceComponent.jsx
+│   ├── Footer/
+│   │   └── Footer.jsx      # Footer component
+│   ├── Navbar/
+│   │   └── Navbar.jsx      # Top navigation bar
+│   └── ServicesComponents/
+│       ├── Header.jsx
+│       └── Hero.jsx
+├── utils/
+│   ├── buttons/            # Reusable button components
+│   │   ├── DropDownButton.jsx
+│   │   ├── PrimaryYellowButton.jsx
+│   │   ├── RightArrowButton.jsx
+│   │   ├── SecondaryBlackButtons.jsx
+│   │   └── SimpleButton.jsx
+│   ├── icons/
+│   │   └── IconsAIPoweredComp.jsx
+│   └── images/
+│       ├── images.js
+│       └── experienceData.js
+├── public/                 # Public assets like images
+├── config/
+│   ├── postcss.config.js
+│   └── tailwind.config.js
+└── .
+    ├── package.json        # Project metadata and scripts
+    ├── README.md           # Project overview (you are here)
+    ├── .gitignore          # Files and folders to ignore in Git
+    └── next.config.mjs     # Next.js configuration
 
 yaml
 Copy code
