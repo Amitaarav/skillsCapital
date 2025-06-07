@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Skills Capital",
-  description: "Created By Skills Capital",
+  title: "VettEdge",
+  description: "Created By VettEdge owner Amit Kumar",
 };
 
 export default function RootLayout({ children }) {

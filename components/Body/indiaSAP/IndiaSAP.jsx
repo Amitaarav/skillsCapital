@@ -4,7 +4,7 @@ export const IndiaSAP = () => {
     return (
         <section className=" bg-gray-200 text-gray-900 py-12 px-6 md:px-20">
             <div className="max-w-7xl mx-auto text-center">
-                <h1 className=" text-3xl font-bold md:text-4xl ">India - SkillsCapital for SAP & Enterprise Talent</h1>
+                <h1 className=" text-3xl font-bold md:text-4xl ">India - VettEdge for SAP & Enterprise Talent</h1>
                 <p className="text-gray-600 text-lg mt-4">India's top SAP talent, combined with our AI-Powered vetting, ensures unmatched experties.</p>
             </div>
             <div className="pt-4 w-full h-screen overflow-hidden mt-10">

@@ -15,10 +15,13 @@ const navLabelItems = [
 export const Navbar = () => {
     const [isOpen,setIsOpen] = useState(false)
     return (
-        <div className="w-full px-6 bg-white flex items-center justify-between shadow-md">
+        <div className="w-full px-6 bg-white flex items-center justify-between shadow-md gap-8 md:gap-2">
             <div className="text-2xl md:text-4xl font-bold md:ml-20">
-                <button className="hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
-                    SkillsCapital
+                <button className=" flex items-baseline hover:cursor-pointer transition duration-300 ease-in-out bg-gradient-to-r from-red-500 to-gray-800 p-2.5 text-white rounded-lg">
+                    <div className="bg-gradient-to-r from-green-600 to-red-700 rounded-full p-2 border-2 border-amber-200">
+                        <p className="text-3xl font-extrabold">V</p>
+                    </div>
+                    <p>ettEdge</p>
                 </button>
             </div>
             <div className="hidden md:flex gap-10 md:items-center md:justify-center">

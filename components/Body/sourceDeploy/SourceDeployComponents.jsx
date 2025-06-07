@@ -30,7 +30,7 @@ export const SourceDeployComponents = () => {
                 <h1 className="text-2xl md:text-3xl font-bold text-gray-800 ml-8">Source & Deploy SAP Expertise Seamlessly</h1>
                 <p className="text-gray-600">Our AI-driven plateform powers three key engagement models.</p>
             </div>
-            <div className="max-w-7xl mx-auto m-4 text-black grid grid-cols-1  md:grid-cols-3 gap-2 sm:gap-4 place-items-center">
+            <div className="max-w-7xl mx-auto m-4 text-black grid grid-cols-1  lg:grid-cols-3 gap-4  place-items-center">
                 {cardDetails.map((item) => (<SubComponents key={item.id} img={item.img} heading={item.heading} label={item.label} description={item.description} />))}
             </div>
         </div>

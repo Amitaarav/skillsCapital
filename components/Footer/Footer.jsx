@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer className="bg-gray-900 text-gray-200 py-4">
             <div className="container flex justify-between items-center mx-auto px-6 lg:px-0 ml-8">
                 <h2 className="text-4xl font-bold mb-6">
-                        Skills Capital
+                        VettEdge
                 </h2>
                 <div className="flex justify-between md:items-center space-x-4 mt-4 mb-6 mr-50 text-gray-500">
                          <h2 className="text-2xl font-bold text-white ">Follow Us On: </h2>
@@ -15,15 +15,15 @@ export const Footer = () => {
                             <FaFacebookF size={20} className="hover:text-white"/> 
                             
                         </Link>
-                        <Link href="https://twitter.com/">
+                        <Link href="https://x.com/AmitAarav1205">
                             <FaTwitter size={20} className="hover:text-white"/>
                             
                         </Link>
-                        <Link href="https://www.instagram.com/">
+                        <Link href="https://www.instagram.com/amitaarav_8">
                         <FaInstagram size={20} className="hover:text-white"/>
                             
                         </Link>
-                        <Link href="https://www.linkedin.com/">
+                        <Link href="www.linkedin.com/in/amitkrgupta8">
                         <FaLinkedin  size={20} className="hover:text-white"/>
                             
                         </Link>
@@ -64,11 +64,11 @@ export const Footer = () => {
                         </li>
                         <li className="flex items-center hover:text-white">
                             <FaEnvelope className="mr-2"/>
-                            <span>info@skillscapital.io</span>
+                            <span>info@vettedge.io</span>
                         </li>
                         <li className="flex items-center hover:text-white">
                             <FaMapMarkerAlt className="mr-2"/>
-                            <span>Pune, India</span>
+                            <span>India</span>
                         </li>
                     </ul>
                 </div>
